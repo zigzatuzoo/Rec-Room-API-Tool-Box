@@ -1,7 +1,7 @@
 # Rec-Room-API-Tool-Box
 #### A place for any basic tools
 
-> If you would like to add to the tool box, just message me. The RecNet Api discord server is here discord.io/recnetapi. Thank you!
+> If you would like to add to the tool box, just send a pull request with your new tool and ill review it. If you would like to message me with a question, you can contact me via The RecNet Api discord server at discord.io/recnetapi. Thank you!
 
 ### Tools in Tool Box:
 
