@@ -1,4 +1,4 @@
-[![](https://img.shields.io/badge/Discord-RecNetAPI-green)](https://discord.io/recnetapi) [![](https://img.shields.io/badge/Minimum%20Python%20Version-v3.9-brightgreen)](https://www.python.org/downloads/)
+[![](https://img.shields.io/badge/Discord-RecNetAPI-brightgreen)](https://discord.io/recnetapi) [![](https://img.shields.io/badge/Minimum%20Python%20Version-v3.9-brightgreen)](https://www.python.org/downloads/)
 
 # Rec-Room-API-Tool-Box
 #### A place for any Rec Room api tools
