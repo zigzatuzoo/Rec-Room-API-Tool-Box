@@ -15,20 +15,7 @@ BToken = "Bearer " + token
 
 print("Token: "+BToken)
 
-userHeader= {'Host':'api.rec.net',
-             'Sec-Ch-Ua':'" Not A;Brand";v="99", "Chromium";v="92"',
-             'Accept':'*/*',
-             'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
-             'Sec-Ch-Ua-Mobile':'?0',
-             'Authorization':BToken,
-             'Origin':'https://rec.net',
-             'Sec-Fetch-Site':'same-site',
-             'Sec-Fetch-Mode':'cors',
-             'Sec-Fetch-Dest':'empty',
-             'Referer':'https://rec.net/',
-             'Accept-Encoding':'gzip, deflate',
-             'Accept-Language':'en-US,en;q=0.9',
-             'Connection':'close',}
+userHeader= {'Authorization':BToken}
 
 getUser = requests.get('https://api.rec.net/api/relationships/v6/current/friends?take=1000000000', headers = userHeader)
 
