@@ -16,6 +16,10 @@ Many tools require Jegarde's recnet-login python library, this can be installed 
 
 - Get Relationships - Zigzatuzoo | Allows users to get all relationships related to the account. (uses auto auth for login)
 
+- Get Relationships RecNet-Login - Zigzatuzoo | Allows users to get all relationships related to the account. (uses RecNetLogin)
+
 ### Full Tools in Tool Box:
 
 - Unfavorite All - Zigzatuzoo | Unfavorites all favorited players.
+
+- Animated Bio - Zigzatuzoo | Cycles through 3 different text items although completely useless because of how RR handles bio caching
