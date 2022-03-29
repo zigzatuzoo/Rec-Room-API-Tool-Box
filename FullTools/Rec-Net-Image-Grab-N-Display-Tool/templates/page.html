@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Test</title>
+  </head>
+  <body>
+    {% for img in images %} <!-- For loop (jinja style!!) -->
+      {{ img | safe}} <!-- This will help turn the string into html tags (Please be very careful when using this)-->
+    {% endfor %} <!-- End block for For loop) -->
+  </body>
+</html>
